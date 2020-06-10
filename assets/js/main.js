@@ -9,7 +9,7 @@ startBtn.addEventListener("click",e=>{
         zeit.textContent=`${countDown}%`
         if (countDown<=0) {
         clearInterval(x)
-        zeit.textContent+=` your Downloud ist Ready`
+        zeit.innerHTML+=`<br> your Downloud ist Ready`
         startBtn.textContent=":)"
         body.style.background="green"
         body.style.color="black"
